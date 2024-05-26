@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda🐼</title>
+    <link rel="stylesheet" href="style.css">
+    <script class="cssdeck" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/poly-decomp@0.3.0/build/decomp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/matter-js@0.14.2/build/matter.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body background="image_search_1716716938607.jpg" >
+    <div class="balloonsContainer"></div>
+    <div class="pandaContainer">
+      <svg width="395" height="485" viewBox="0 0 395 485" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g id="Panda">
+      <g id="Body">
+      <path id="StomachShadow" d="M322 315.5C322 387.297 270.161 438 185.799 438C101.436 438 62 387.297 62 315.5C62 290.991 72.2006 260.566 86.0543 241C112.784 203.249 130.235 178 185.799 178C240.693 178 269.584 205.5 291.812 241C304.744 261.652 322 289.252 322 315.5Z" fill="#EDEDED"/>
+      <path id="Stomach" d="M326 315.5C326 387.297 274.161 438 189.799 438C105.436 438 66 387.297 66 315.5C66 290.991 76.2006 260.566 90.0543 241C116.784 203.249 134.235 178 189.799 178C244.693 178 273.584 205.5 295.812 241C308.744 261.652 326 289.252 326 315.5Z" fill="white"/>
+      <ellipse id="LeftThigh" cx="86.2464" cy="383.79" rx="71.2142" ry="54.3183" transform="rotate(21.688 86.2464 383.79)" fill="black"/>
+      <g id="LeftPaw">
+      <ellipse id="LeftFootShadow" cx="85.3573" cy="403.563" rx="58.3822" ry="40.882" transform="rotate(21.688 85.3573 403.563)" fill="#696969"/>
+      <ellipse id="LeftFoot" cx="86.3573" cy="403.563" rx="58.3822" ry="40.882" transform="rotate(21.688 86.3573 403.563)" fill="#0A0A0A"/>
+      <path id="LeftBean1Shadow" d="M97.5117 402.2C96.3073 417.617 104.382 431.323 93.5217 430.475C82.6614 429.626 74.8337 416.441 76.0381 401.024C77.2424 385.607 87.0228 373.796 97.8832 374.645C108.743 375.493 98.7161 386.783 97.5117 402.2Z" fill="#EF81A9"/>
+      <path id="LeftBean1" d="M98.5117 401.2C97.3073 416.617 105.382 430.323 94.5217 429.475C83.6614 428.626 75.8337 415.441 77.0381 400.024C78.2424 384.607 88.0228 372.796 98.8832 373.645C109.743 374.493 99.7161 385.783 98.5117 401.2Z" fill="#F1BCCF"/>
+      <ellipse id="LeftBean3Shadow" cx="60.5" cy="413.5" rx="8.5" ry="5.5" fill="#EF81A9"/>
+      <ellipse id="LeftBean3" cx="60.5" cy="412.5" rx="8.5" ry="5.5" fill="#F1BCCF"/>
+      <ellipse id="LeftBean4Shadow" cx="56.5" cy="398.5" rx="8.5" ry="5.5" fill="#EF81A9"/>
+      <ellipse id="LeftBean4" cx="56.5" cy="397.5" rx="8.5" ry="5.5" fill="#F1BCCF"/>
+      <ellipse id="LeftBean5Shadow" cx="60.5" cy="383.853" rx="7.5" ry="4.85294" fill="#EF81A9"/>
+      <ellipse id="LeftBean5" cx="60.5" cy="382.853" rx="7.5" ry="4.85294" fill="#F1BCCF"/>
+      <ellipse id="LeftBeanShadow" cx="68.5" cy="371.206" rx="6.5" ry="4.20588" fill="#E17A9F"/>
+      <ellipse id="LeftBean6" cx="68.5" cy="370.206" rx="6.5" ry="4.20588" fill="#F1BCCF"/>
+      <ellipse id="LeftBean2Shadow" cx="68.5" cy="427.206" rx="6.5" ry="4.20588" fill="#EF81A9"/>
+      <ellipse id="LeftBean2" cx="68.5" cy="426.206" rx="6.5" ry="4.20588" fill="#F1BCCF"/>
+      </g>
+      <ellipse id="RightThigh" cx="291.848" cy="383.041" rx="71.2142" ry="54.3183" transform="rotate(-20.7687 291.848 383.041)" fill="black"/>
+      <g id="RightPaw">
+      <ellipse id="RightFootShadow" cx="305.012" cy="392.141" rx="58.3822" ry="40.882" transform="rotate(147.843 305.012 392.141)" fill="#696969"/>
+      <ellipse id="RightFoot" cx="305.012" cy="393.141" rx="58.3822" ry="40.882" transform="rotate(147.843 305.012 393.141)" fill="black"/>
+      <path id="RightBean1Shadow" d="M299.103 397.196C292.416 383.253 278.558 375.441 288.38 370.731C298.203 366.02 311.586 373.505 318.273 387.448C324.96 401.392 322.418 416.514 312.596 421.224C302.774 425.935 305.79 411.14 299.103 397.196Z" fill="#EF81A9"/>
+      <path id="RightBean1" d="M300.103 396.196C293.416 382.253 279.558 374.441 289.38 369.731C299.203 365.02 312.586 372.505 319.273 386.448C325.96 400.392 323.418 415.514 313.596 420.224C303.774 424.935 306.79 410.14 300.103 396.196Z" fill="#F1BCCF"/>
+      <ellipse id="RightBean5Shadow" cx="325.854" cy="365.47" rx="8.5" ry="5.5" transform="rotate(154.18 325.854 365.47)" fill="#EF81A9"/>
+      <ellipse id="RightBean5" cx="325.854" cy="364.47" rx="8.5" ry="5.5" transform="rotate(154.18 325.854 364.47)" fill="#F1BCCF"/>
+      <ellipse id="RightBean4Shadow" cx="335.988" cy="377.231" rx="8.5" ry="5.5" transform="rotate(154.18 335.988 377.231)" fill="#EF81A9"/>
+      <ellipse id="RightBean4" cx="335.988" cy="376.231" rx="8.5" ry="5.5" transform="rotate(154.18 335.988 376.231)" fill="#F1BCCF"/>
+      <ellipse id="RightBean3Shadow" cx="338.767" cy="392.157" rx="7.5" ry="4.85294" transform="rotate(154.18 338.767 392.157)" fill="#EF81A9"/>
+      <ellipse id="RightBean3" cx="338.767" cy="391.157" rx="7.5" ry="4.85294" transform="rotate(154.18 338.767 391.157)" fill="#F1BCCF"/>
+      <ellipse id="RightBean2Shadow" cx="337.074" cy="407.026" rx="6.5" ry="4.20588" transform="rotate(154.18 337.074 407.026)" fill="#EF81A9"/>
+      <ellipse id="RightBean2" cx="337.074" cy="406.026" rx="6.5" ry="4.20588" transform="rotate(154.18 337.074 406.026)" fill="#F1BCCF"/>
+      <ellipse id="RightBean6Shadow" cx="312.683" cy="356.617" rx="6.5" ry="4.20588" transform="rotate(154.18 312.683 356.617)" fill="#EF81A9"/>
+      <ellipse id="RightBean6" cx="312.683" cy="355.617" rx="6.5" ry="4.20588" transform="rotate(154.18 312.683 355.617)" fill="#F1BCCF"/>
+      </g>
+      <path id="LeftArmShadow" d="M176.219 349.321C192.748 417.225 251.912 428.4 204.573 439.924C157.235 451.447 105.459 405.741 88.9295 337.837C72.3999 269.932 97.3757 205.544 144.714 194.02C169.029 188.101 197.26 222.147 197.429 257.321C197.59 290.627 170.121 324.273 176.219 349.321Z" fill="#696969"/>
+      <path id="LeftArm" d="M177.219 349.321C193.748 417.225 252.912 428.4 205.573 439.924C158.235 451.447 106.459 405.741 89.9295 337.837C73.3999 269.932 98.3757 205.544 145.714 194.02C170.029 188.101 198.26 222.147 198.429 257.321C198.59 290.627 171.121 324.273 177.219 349.321Z" fill="#010101"/>
+      <path id="RightArmShadow" d="M225.975 345.075C221.463 415.787 164.273 437.385 213.655 440.535C263.037 443.686 306.726 388.918 311.238 318.206C315.75 247.494 279.375 187.617 229.993 184.466C204.629 182.848 182.422 221.821 188.478 256.967C194.213 290.248 227.639 318.992 225.975 345.075Z" fill="#4A4A4A"/>
+      <path id="RightArm" d="M224.975 345.075C220.463 415.787 163.273 437.385 212.655 440.535C262.037 443.686 305.726 388.918 310.238 318.206C314.75 247.494 278.375 187.617 228.993 184.466C203.629 182.848 181.422 221.821 187.478 256.967C193.213 290.248 226.639 318.992 224.975 345.075Z" fill="#010101"/>
+      <path id="LeftHandShadow" d="M222 408.5C222 428.658 201.405 443 176 443C150.595 443 130 428.658 130 408.5C130 388.342 150.595 372 176 372C201.405 372 222 388.342 222 408.5Z" fill="#4A4A4A"/>
+      <path id="LeftHand" d="M223 409.5C223 429.658 202.405 444 177 444C151.595 444 131 429.658 131 409.5C131 389.342 151.595 373 177 373C202.405 373 223 389.342 223 409.5Z" fill="black"/>
+      <path id="RightHandShadow" d="M261.365 409.416C259.826 429.516 238.197 442.244 212.866 440.304C187.535 438.365 168.095 422.493 169.634 402.393C171.172 382.294 192.955 367.572 218.286 369.511C243.617 371.451 262.904 389.317 261.365 409.416Z" fill="#4A4A4A"/>
+      <path id="RightHand" d="M261.365 410.416C259.826 430.516 238.197 443.244 212.866 441.304C187.535 439.365 168.095 423.493 169.634 403.393C171.172 383.294 192.955 368.572 218.286 370.511C243.617 372.451 262.904 390.317 261.365 410.416Z" fill="black"/>
+      </g>
+      <g id="Head">
+      <path id="earLeft" class="ears" d="M124.21 82.989C122.976 104.216 100.669 129.701 79.9933 128.498C59.3175 127.296 36.4337 102.425 49.3369 78.6341C50.5716 57.407 76.1416 31.1103 97.698 39.3759C118.374 40.5785 125.445 61.7619 124.21 82.989Z" fill="black"/>
+      <path id="earRight" class="ears" d="M278.322 102.393C258.364 95.0588 240.439 66.3229 247.582 46.8833C254.726 27.4436 285.162 12.7507 304.192 31.9957C324.15 39.3299 341.906 71.4242 327.747 89.6596C320.604 109.099 298.28 109.727 278.322 102.393Z" fill="black"/>
+      <g id="Face">
+      <path id="FaceShadow" fill-rule="evenodd" clip-rule="evenodd" d="M173.666 32.6147L173.909 32.5829L174.151 32.5505C203.412 28.6734 249.465 35.336 265.967 66.8487C272.561 79.4406 281.272 87.8468 289.464 95.753C300.727 106.622 311.011 116.546 313.47 135.101C321.732 197.455 262.887 239.838 202.674 247.817L202.432 247.849L202.19 247.881C141.977 255.859 74.1252 230.264 65.863 167.91C63.4044 149.355 70.7486 137.095 78.7921 123.668C84.643 113.901 90.8639 103.516 93.9509 89.6416C101.676 54.9186 144.406 36.4919 173.666 32.6147Z" fill="#EDEDED"/>
+      <path id="FaceMain" fill-rule="evenodd" clip-rule="evenodd" d="M177.666 32.6147L177.909 32.5829L178.151 32.5505C207.412 28.6734 253.465 35.336 269.967 66.8487C276.561 79.4406 285.272 87.8468 293.464 95.753C304.727 106.622 315.011 116.546 317.47 135.101C325.732 197.455 266.887 239.838 206.674 247.817L206.432 247.849L206.19 247.881C145.977 255.859 78.1252 230.264 69.863 167.91C67.4044 149.355 74.7486 137.095 82.7921 123.668C88.643 113.901 94.8639 103.516 97.9508 89.6416C105.676 54.9186 148.406 36.4919 177.666 32.6147Z" fill="white"/>
+      </g>
+      <g id="EyeLeft">
+        <g class="eyes">
+          <ellipse id="Ellipse 4" rx="30.6806" ry="42.6928" transform="matrix(0.887406 0.460989 -0.494741 0.86904 142.22 154.197)" fill="black"/>
+        </g>
+      <g id="LeftIris" class="eyeBalls">
+      <circle id="Ellipse 6" cx="146.849" cy="150.813" r="16.5" transform="rotate(3.32876 146.849 150.813)" fill="#4EA2D4"/>
+      <circle id="Ellipse 15" cx="146.849" cy="150.813" r="12.5" transform="rotate(3.32876 146.849 150.813)" fill="white"/>
+      <circle id="Ellipse 9" cx="146.849" cy="150.813" r="11.5" transform="rotate(3.32876 146.849 150.813)" fill="black"/>
+      <circle id="Ellipse 11" cx="153.832" cy="142.705" r="4" transform="rotate(3.32876 153.832 142.705)" fill="white"/>
+      <circle id="Ellipse 13" cx="142.566" cy="155.573" r="2.5" transform="rotate(3.32876 142.566 155.573)" fill="white"/>
+  <path id="lowerEyeLidLeft" class="lowerEyeLid" d="M164 150.5C164 155.141 162.156 159.592 158.874 162.874C155.592 166.156 151.141 168 146.5 168C141.859 168 137.408 166.156 134.126 162.874C130.844 159.592 129 155.141 129 150.5L146.5 150.5L164 150.5Z" fill="black"/>
+        <path id="upperEyeLidLeft" class="upperEyeLid" d="M164 150.5C164 145.859 162.156 141.408 158.874 138.126C155.592 134.844 151.141 133 146.5 133C141.859 133 137.408 134.844 134.126 138.126C130.844 141.408 129 145.859 129 150.5L146.5 150.5L164 150.5Z" fill="black"/>
+      </g>
+      </g> 
+      <g id="EyeRight" >
+        <g class="eyes" >
+          <ellipse id="Ellipse 5" cx="246.702" cy="148.105" rx="29.8504" ry="42.2534" transform="rotate(143.477 246.702 148.105)" fill="black"/>
+        </g>
+      <g id="RightIris" class="eyeBalls">
+      <circle id="Ellipse 7" cx="240.389" cy="144.234" r="16.5" transform="rotate(3.32876 240.389 144.234)" fill="#4EA2D4"/>
+      <circle id="Ellipse 8" cx="240.389" cy="144.234" r="12.5" transform="rotate(3.32876 240.389 144.234)" fill="white"/>
+      <circle id="Ellipse 10" cx="240.389" cy="144.234" r="11.5" transform="rotate(3.32876 240.389 144.234)" fill="black"/>
+      <circle id="Ellipse 14" cx="236.105" cy="148.993" r="2.5" transform="rotate(3.32876 236.105 148.993)" fill="white"/>
+      <circle id="Ellipse 12" cx="248.312" cy="137.182" r="4" transform="rotate(3.32876 248.312 137.182)" fill="white"/>
+        <path id="upperEyeLidRight" class="upperEyeLid" d="M258 144.5C258 139.859 256.156 135.408 252.874 132.126C249.592 128.844 245.141 127 240.5 127C235.859 127 231.408 128.844 228.126 132.126C224.844 135.408 223 139.859 223 144.5L240.5 144.5L258 144.5Z" fill="black"/>
+        <path id="lowerEyeLidRight" class="lowerEyeLid" d="M258 143.5C258 148.141 256.156 152.592 252.874 155.874C249.592 159.156 245.141 161 240.5 161C235.859 161 231.408 159.156 228.126 155.874C224.844 152.592 223 148.141 223 143.5L240.5 143.5L258 143.5Z" fill="black"/>
+      </g>
+      </g>
+      <ellipse id="SnoutShadow" class="snout" cx="194.302" cy="198.111" rx="60.5552" ry="43" transform="rotate(-3.21093 194.302 198.111)" fill="#EDEDED"/>
+      <ellipse id="Snout" class="snout" cx="194.93" cy="199.266" rx="64.0118" ry="43" transform="rotate(-3.21093 194.93 199.266)" fill="white"/>
+      <path id="NodeBridgeShadow" class="nose" d="M175.523 170.334L208.687 167.34L217.67 182.907L217.967 186.43L217.309 189.395L211.058 195.525L203.936 199.599L196.953 201.178L188.09 201.141L180.348 198.668L173.124 195.726L168.901 191.964L168.114 188.411L175.523 170.334Z" fill="#EDEDED"/>
+      <path id="NodeBridgeMain" class="nose" d="M180.096 167.004L213.26 164.01L222.244 179.577L222.54 183.1L221.882 186.065L215.631 192.195L208.509 196.269L201.526 197.848L192.663 197.811L184.921 195.338L177.697 192.396L173.474 188.634L172.687 185.082L180.096 167.004Z" fill="white"/>
+      <path id="MouthShadow" class="nose" fill-rule="evenodd" clip-rule="evenodd" d="M196.936 211.141L197.482 201.742L196.484 201.684L195.893 211.845C194.012 214.526 191.464 216.763 188.447 218.37C185.088 220.16 181.267 221.107 177.365 221.117C173.462 221.126 169.614 220.198 166.206 218.424C162.797 216.651 159.946 214.094 157.937 211.008L156.957 211.538C159.069 214.782 162.066 217.47 165.649 219.334C169.232 221.199 173.277 222.174 177.379 222.165C181.482 222.155 185.498 221.159 189.029 219.277C192.089 217.647 194.691 215.4 196.646 212.712L196.844 212.723L196.862 212.41C197.084 212.092 197.298 211.769 197.502 211.44L196.936 211.141ZM236.211 206.661C234.718 210.263 232.276 213.428 229.13 215.842C225.984 218.256 222.242 219.834 218.279 220.419C214.315 221.004 210.268 220.575 206.541 219.175C202.814 217.776 199.537 215.454 197.038 212.442L197.91 211.764C200.288 214.63 203.405 216.838 206.95 218.169C210.496 219.501 214.346 219.909 218.116 219.352C221.887 218.796 225.446 217.295 228.439 214.998C231.432 212.702 233.755 209.691 235.175 206.265L236.211 206.661Z" fill="#D0D0D0"/>
+      <path id="NoseShadow" class="nose" d="M219.562 188.1C219.884 192.379 215.109 195.342 210.497 198.431C206.205 201.304 203.044 206.011 195.557 205.575C189.567 205.227 185.417 202.745 180.814 200.711C175.487 198.356 169.864 196.289 169.531 191.857C169.143 186.693 173.647 183.221 180.362 182.654C184.388 182.314 188.661 183.827 193.839 183.438C199.22 183.034 202.946 181.433 206.992 181.198C213.334 180.83 219.184 183.056 219.562 188.1Z" fill="#EDEDED"/>
+      <path id="Mouth" class="nose" fill-rule="evenodd" clip-rule="evenodd" d="M197.868 212.241L198.47 201.897L197.472 201.839L196.852 212.494L196.615 212.665C196.66 212.715 196.705 212.765 196.75 212.815C194.826 215.526 192.204 217.786 189.094 219.405C185.662 221.191 181.757 222.133 177.767 222.137C173.777 222.142 169.843 221.208 166.356 219.43C162.868 217.652 159.951 215.091 157.893 212.003L156.892 212.531C159.055 215.778 162.122 218.47 165.788 220.339C169.453 222.208 173.59 223.19 177.783 223.185C181.977 223.18 186.083 222.19 189.69 220.313C192.858 218.664 195.545 216.381 197.549 213.648C200.009 216.081 203.077 217.966 206.519 219.147C210.411 220.484 214.644 220.875 218.795 220.282C222.947 219.689 226.873 218.132 230.181 215.767C233.489 213.402 236.064 210.312 237.649 206.804L236.567 206.425C235.06 209.762 232.61 212.702 229.463 214.952C226.316 217.202 222.582 218.683 218.632 219.247C214.683 219.811 210.656 219.439 206.954 218.168C203.575 217.007 200.573 215.135 198.197 212.711C198.246 212.636 198.294 212.561 198.342 212.486L197.868 212.241Z" fill="black"/>
+      <path id="NoseMain" class="nose" d="M220.421 185.304C220.743 189.583 215.968 192.547 211.355 195.635C207.063 198.508 203.903 203.215 196.415 202.779C190.426 202.431 186.276 199.949 181.673 197.915C176.346 195.561 170.723 193.493 170.39 189.062C170.002 183.897 174.505 180.425 181.221 179.858C185.247 179.519 189.52 181.031 194.698 180.642C200.078 180.238 203.805 178.637 207.85 178.402C214.193 178.034 220.042 180.26 220.421 185.304Z" fill="black"/>
+      </g>
+      </g>
+      </svg>
+    </div>
+    <div class="giftContainer">
+      <svg width="153" height="118" viewBox="0 0 153 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Gift">
+      
+        <g id="GiftBox">
+        <path id="Rectangle 7" d="M0.5 117.079V21.3283L29.5 8.76159V98.2287L0.5 117.079Z" fill="#d1b13d" stroke="#d1b13d"/>
+        <rect id="Rectangle 8" x="30.5" y="8.5" width="122" height="90" fill="#d1b13d" stroke="#FAA848"/>
+        <path id="Rectangle 6" d="M123.5 117.079V21.3283L152.5 8.76159V98.2287L123.5 117.079Z" fill="#FEFFB9" stroke="#F4F699"/>
+        <path id="Rectangle 12" d="M136.5 108.691V16.809L137.5 16.309V108.191L136.5 108.691Z" fill="#4EA2D4" stroke="#4EA2D4"/>
+        <path id="Rectangle 10" d="M123.5 41.203V40.3137L152.5 26.297V27.1863L123.5 41.203Z" fill="#4EA2D4" stroke="#4EA2D4"/>
+        <rect id="Rectangle 5" x="0.5" y="21.5" width="122" height="96" fill="#FEFFB9" stroke="#F4F699"/>
+        <rect id="Rectangle 11" x="108.5" y="21.5" width="1" height="96" fill="#4EA2D4" stroke="#4EA2D4"/>
+        <rect id="Rectangle 9" x="0.5" y="40.5" width="122" height="1" fill="#10ABED" stroke="#4EA2D4"/>
+        <g id="Ribbon">
+        <path id="Ellipse 20" d="M107.195 28.085C109.655 31.6503 110.975 38.7098 108.009 40.756C105.042 42.8022 98.9123 39.0602 96.453 35.4949C93.9937 31.9296 94.4047 27.3806 97.3711 25.3344C100.338 23.2882 104.736 24.5197 107.195 28.085ZM98.4362 34.1269C99.9874 36.3758 105.643 41.3294 107.514 40.0387C109.385 38.7481 106.763 31.7019 105.212 29.453C103.661 27.2041 100.886 26.4273 99.0153 27.718C97.1442 29.0087 96.8849 31.8781 98.4362 34.1269Z" fill="#10ABED"/>
+        <path id="Ellipse 21" d="M110.676 27.6618C108.391 31.341 107.411 38.4557 110.472 40.3572C113.533 42.2587 119.476 38.2269 121.762 34.5477C124.047 30.8685 123.418 26.3444 120.357 24.4429C117.296 22.5415 112.962 23.9826 110.676 27.6618ZM119.715 33.2764C118.274 35.5971 112.862 40.8164 110.931 39.617C109.001 38.4176 111.281 31.2538 112.723 28.933C114.164 26.6123 116.898 25.7033 118.829 26.9027C120.76 28.1021 121.157 30.9557 119.715 33.2764Z" fill="#10ABED"/>
+        <path id="Ellipse 23" d="M107.734 31.443C109.471 33.9614 110.404 38.9481 108.308 40.3935C106.213 41.8388 101.883 39.1956 100.145 36.6772C98.4083 34.1587 98.6986 30.9454 100.794 29.5C102.889 28.0547 105.996 28.9246 107.734 31.443ZM101.546 35.7108C102.642 37.2994 106.637 40.7985 107.959 39.8868C109.28 38.9751 107.428 33.9979 106.333 32.4093C105.237 30.8208 103.277 30.2721 101.955 31.1837C100.634 32.0954 100.451 34.1223 101.546 35.7108Z" fill="#4EA2D4"/>
+        <path id="Ellipse 22" d="M110.923 30.5733C109.227 33.3036 108.499 38.5836 110.771 39.9947C113.043 41.4058 117.454 38.4137 119.15 35.6833C120.846 32.953 120.379 29.5956 118.107 28.1845C115.835 26.7734 112.619 27.8429 110.923 30.5733ZM117.631 34.7399C116.561 36.4622 112.545 40.3355 111.112 39.4454C109.679 38.5553 111.372 33.2389 112.442 31.5167C113.511 29.7944 115.54 29.1198 116.973 30.0099C118.406 30.9 118.701 33.0177 117.631 34.7399Z" fill="#4EA2D4"/>
+        <g id="Vector 1">
+        <path d="M109.168 38.8091C109.64 39.0663 110.069 39.4771 110.427 40.0134C112.525 41.9462 115.445 44.5546 114.5 46.1295C113.3 48.1295 117 50.2961 119 51.1295L115.5 52.6295C113.5 52.4628 109.8 51.1295 111 47.1295C111.891 44.1583 111.459 41.5622 110.427 40.0134C109.945 39.5694 109.507 39.1611 109.168 38.8091C109.109 38.7475 109.053 38.6876 109 38.6295L109.168 38.8091Z" fill="#10ABED"/>
+        <path d="M109.168 38.8091C111.002 39.8091 112.2 43.1295 111 47.1295C109.8 51.1295 113.5 52.4628 115.5 52.6295L119 51.1295C117 50.2961 113.3 48.1295 114.5 46.1295C115.7 44.1295 110.667 40.4628 109 38.6295L109.168 38.8091Z" stroke="#10ABED"/>
+        </g>
+        <g id="Vector 3">
+        <path d="M109.144 37.7835C109.548 38.0039 109.917 38.356 110.223 38.8157C112.021 40.4724 114.524 42.7081 113.714 44.058C112.686 45.7723 115.857 47.6295 117.571 48.3438L114.571 49.6295C112.857 49.4866 109.686 48.3438 110.714 44.9152C111.478 42.3685 111.108 40.1432 110.223 38.8157C109.81 38.4352 109.434 38.0852 109.144 37.7835C109.093 37.7306 109.045 37.6793 109 37.6295L109.144 37.7835Z" fill="#4EA2D4"/>
+        <path d="M109.144 37.7835C110.716 38.6406 111.743 41.4866 110.714 44.9152C109.686 48.3438 112.857 49.4866 114.571 49.6295L117.571 48.3438C115.857 47.6295 112.686 45.7723 113.714 44.058C114.743 42.3438 110.429 39.2009 109 37.6295L109.144 37.7835Z" stroke="#4EA2D4" stroke-width="0.857143"/>
+        </g>
+        <g id="Vector 2">
+        <path d="M109.5 39.6295C109.098 39.8488 108.79 40.2124 108.568 40.6886C106.81 42.7596 104.495 45.9544 105.5 47.6295C106.7 49.6295 103 51.7961 101 52.6295L104.5 54.1295C106.5 53.9628 110.2 52.6295 109 48.6295C108.063 45.5067 107.776 42.3839 108.568 40.6886C108.909 40.2868 109.229 39.9273 109.5 39.6295Z" fill="#10ABED"/>
+        <path d="M109.5 39.6295C107.667 40.6295 107.8 44.6295 109 48.6295C110.2 52.6295 106.5 53.9628 104.5 54.1295L101 52.6295C103 51.7961 106.7 49.6295 105.5 47.6295C104.3 45.6295 107.833 41.4628 109.5 39.6295Z" stroke="#10ABED"/>
+        </g>
+        <g id="Vector 4">
+        <path d="M109.474 38.6295C109.169 38.7958 108.936 39.0717 108.767 39.4329C107.434 41.004 105.677 43.4277 106.44 44.6984C107.35 46.2157 104.543 47.8594 103.026 48.4915L105.681 49.6295C107.198 49.503 110.005 48.4915 109.095 45.4571C108.384 43.088 108.167 40.719 108.767 39.4329C109.026 39.1281 109.269 38.8554 109.474 38.6295Z" fill="#4EA2D4"/>
+        <path d="M109.474 38.6295C108.083 39.3881 108.184 42.4226 109.095 45.4571C110.005 48.4915 107.198 49.503 105.681 49.6295L103.026 48.4915C104.543 47.8594 107.35 46.2157 106.44 44.6984C105.529 43.1812 108.21 40.0203 109.474 38.6295Z" stroke="#4EA2D4" stroke-width="0.758621"/>
+        </g>
+        </g>
+        </g>
+        <g id="GiftLid">
+        <path id="Rectangle 11_2" d="M123.5 21.2384V12.3385L152.5 0.738517V8.67174L123.5 21.2384Z" fill="#FEFFB9" stroke="#F4F699"/>
+        <path id="Rectangle 13" d="M136.5 15.691V7.39039L137.5 7.14039V15.191L136.5 15.691Z" fill="#4EA2D4" stroke="#4EA2D4"/>
+        <rect id="Rectangle 10_2" x="0.5" y="13.5" width="122" height="8" fill="#FEFFB9" stroke="#F4F699"/>
+        <rect id="Rectangle 12_2" x="108.5" y="13.5" width="1" height="8" fill="#4EA2D4" stroke="#4EA2D4"/>
+        <path id="Rectangle 9_2" d="M150.589 0.5L122.896 12.5H2.41137L30.1037 0.5H150.589Z" fill="#FEFFB9" stroke="#F4F699"/>
+        <g id="Rectangle 14">
+        <mask id="path-59-inside-1" fill="white">
+        <path d="M108 13H110L139 1H137L108 13Z"/>
+        </mask>
+        <path d="M108 13H110L139 1H137L108 13Z" fill="#4EA2D4"/>
+        <path d="M108 13L107.618 12.076L108 14V13ZM110 13V14H110.199L110.382 13.924L110 13ZM139 1L139.382 1.92402L139 0V1ZM137 1V0H136.801L136.618 0.0759832L137 1ZM108 14H110V12H108V14ZM110.382 13.924L139.382 1.92402L138.618 0.0759832L109.618 12.076L110.382 13.924ZM139 0H137V2H139V0ZM136.618 0.0759832L107.618 12.076L108.382 13.924L137.382 1.92402L136.618 0.0759832Z" fill="#4EA2D4" mask="url(#path-59-inside-1)"/>
+        </g>
+        <g id="Rectangle 15">
+        <mask id="path-61-inside-2" fill="white">
+        <path d="M15 6.5L12.5 7.5H136L138 6.5H15Z"/>
+        </mask>
+        <path d="M15 6.5L12.5 7.5H136L138 6.5H15Z" fill="#4EA2D4"/>
+        <path d="M15 6.5V5.5H14.8074L14.6286 5.57152L15 6.5ZM12.5 7.5L12.1286 6.57152L12.5 8.5V7.5ZM136 7.5V8.5H136.236L136.447 8.39443L136 7.5ZM138 6.5L138.447 7.39443L138 5.5V6.5ZM14.6286 5.57152L12.1286 6.57152L12.8714 8.42848L15.3714 7.42848L14.6286 5.57152ZM12.5 8.5H136V6.5H12.5V8.5ZM136.447 8.39443L138.447 7.39443L137.553 5.60557L135.553 6.60557L136.447 8.39443ZM138 5.5H15V7.5H138V5.5Z" fill="#4EA2D4" mask="url(#path-61-inside-2)"/>
+        </g>
+        </g>
+        </g>
+        </svg>
+    </div>
+    <div class="hintBox">Panda va yeluppunga time achi😁</div>
+    <div class="Note">
+    
+      HAPPY BIRTHDAY AISHU ❤️ I promise to make this day as special as you are to me🥰
+    
+    </div>
+    <div class="reloadBTN">
+      
+     </div>
+    <script>
+      const eyes = document.querySelectorAll(".eyes");
+const eyeBalls = document.querySelectorAll(".eyeBalls");
+const head = document.querySelectorAll(".head");
+const ears = document.querySelectorAll(".ears");
+const nose = document.querySelectorAll(".nose");
+const snout = document.querySelectorAll(".snout");
+const audio=new Audio();
+audio.src="bd.mp3";
+let pandaClick = 0;
+let giftClick = 0;
+let cursorPos = { x: 500, y: 500 };
+
+function mousemove(e) {
+  cursorPos = { x: e.clientX, y: e.clientY };
+  initFolow();
+}
+
+function touchmove(e) {
+  cursorPos = { x: e.targetTouches[0].offsetX, y: e.targetTouches[0].offsetY };
+  initFolow();
+}
+
+const followCursor = (el, xRatio, yRatio) => {
+  if (el.length) {
+    var n = el.length;
+    var i;
+    for (i = 0; i < n; i++) {
+      const elOffset = el[i].getBoundingClientRect();
+      const centerX = elOffset.x + elOffset.width / 2;
+      const centerY = elOffset.y + elOffset.height / 2;
+      const distanceLeft = Math.round(
+        ((cursorPos.x - centerX) * 100) / window.innerWidth
+      );
+      const distanceTop = Math.round(
+        ((cursorPos.y - centerY) * 100) / window.innerHeight
+      );
+      el[i].style.transform = `translate(${distanceLeft / xRatio}px, ${
+        distanceTop / yRatio
+      }px)`;
+    }
+  }
+};
+
+const initFolow = () => {
+  if (ears) followCursor(ears, -6.0, -6.0);
+  if (head) followCursor(head, 6, 6);
+  if (eyes) followCursor(eyes, 1.8, 1.8);
+  if (eyeBalls) followCursor(eyeBalls, 1.35, 1.35);
+  if (snout) followCursor(snout, 1.5, 1.7);
+  if (nose) followCursor(nose, 1, 1);
+};
+
+const addBalloons = (num) => {
+  const colorVals = ["yellow", "green", "red", "pink", "coral", "blue"];
+  const container = document.querySelector(".balloonsContainer");
+  for (let i = 1; i <= num; i++) {
+    let colorVal = parseInt(Math.random() * 6);
+    let timeVal = parseInt(20 * Math.random()) + 10;
+    let balloon = document.createElement("div");
+    balloon.classList.add("balloon");
+    balloon.classList.add(colorVals[colorVal] + "Balloon");
+    balloon.style.animationDuration = timeVal + "s";
+    balloon.style.left = parseInt(100 * Math.random()) + "%";
+    container.appendChild(balloon);
+  }
+};
+
+initFolow();
+
+document.querySelector(".pandaContainer").addEventListener("click", () => {
+  pandaClick++;
+  if (pandaClick == 1) {
+    document.querySelector(".hintBox").textContent = "Once again nalla yeluppunga😊";
+  }
+
+  if (pandaClick == 2) {
+    let cursorPos = { x: 250, y: 250 };
+    document.querySelector(".hintBox").textContent = "Hey Aishu 😃 Happy to see you";
+    document.querySelector(".giftContainer").classList.add("giftHalfSlide");
+    initFolow();
+    document.querySelectorAll(".lowerEyeLid").forEach((e) => {
+      e.style.animationPlayState = "running";
+    });
+    document.querySelectorAll(".upperEyeLid").forEach((e) => {
+      e.style.animationPlayState = "running";
+    });
+    window.addEventListener("mousemove", mousemove);
+    window.addEventListener("touchmove", touchmove);
+  }
+  
+});
+
+document.querySelector(".giftContainer").addEventListener("click", () => {
+  giftClick++;
+  if (giftClick == 1) {
+    document.querySelector(".giftContainer").classList.remove("giftHalfSlide");
+    document.querySelector(".giftContainer").classList.add("giftSlide");
+    document.querySelector(".hintBox").textContent =
+      "Ungaluku thaan gift🎁open🥰 ";
+  }
+  if (giftClick == 2) {
+    audio.play();
+    document.querySelector("#GiftLid").style.opacity = 0;
+    addBalloons(40);
+    document.querySelector(".reloadBTN").style.display = "block";
+    document.querySelector(".Note").style.display = "block";
+    document.querySelector(".Note").style.opacity = "1";
+    document.querySelector(".hintBox").style.display = "none";
+  }
+});
+
+const removeBalloons = () => {
+  let balloons = document.querySelectorAll(".balloon");
+  let container = document.querySelector(".balloonsContainer");
+  balloons.forEach((b, i) => {
+    container.removeChild(balloons[i]);
+  });
+};
+
+</script>
+</body>
+ 
+
+</html>
